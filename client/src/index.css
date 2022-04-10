@@ -1,0 +1,224 @@
+body {
+  background-image: url(./assets/images/peakpx.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+/* Header */
+header a {
+  text-decoration: none;
+  opacity: 0.9;
+  color: white;
+}
+
+header a:hover {
+  color: #FC4A03;
+}
+
+header h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+  font-size: 100px;
+  text-align: center;
+  padding: 50px;
+  margin-top: 75px;
+}
+
+header h3 {
+  font-size: 30px !important;
+}
+
+.title {
+  color: #FC4A03;
+}
+
+header h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+} 
+
+header nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/* End of Header */
+
+/* General Styling */
+button {
+  border: 1px solid black;
+  background-color: #FC4A03;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: #FC4A03;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+.link a:hover {
+  color: #FC4A03;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+/* General Styling */
+
+/* Nav Styling */
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 50px;
+  color: white;
+}
+/* End Nav Styling */
+
+/* Category Styling */
+.category {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cat-title {
+  color: white;
+  opacity: 0.9;
+}
+
+.cat-btn {
+  opacity: 0.9;
+  margin: 10px;
+  border-radius: 0.25rem;
+}
+/* End Category Styling */
+
+/* Product Styling */
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 5px;
+}
+
+.product a {
+  text-decoration: none;
+  color: black;
+}
+
+.product a:hover {
+  color: #FC4A03;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 31%;
+  text-align: center;
+  opacity: 0.9;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px 3px #b2a9a9;
+}
+
+.card img {
+  width: auto;
+  margin: 10px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px 3px #b2a9a9;
+}
+
+.shadow {
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 3px 3px #b2a9a9;
+}
+/* End Product Styling */
+
+/* Detail Styling */
+.detail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* End Detail Styling */
+
+/* Success Styling */
+.success {
+  color: white;
+}
+/* End Success Styling */
+
+/* Form Styling */
+.form-btn {
+  margin: 10px;
+  border-radius: 0.25rem;
+}
+
+input {
+  width: 90%;
+  border-radius: 0.25rem;
+}
+
+label {
+  float: left;
+  margin-left: 30px;
+}
+
+textarea {
+  width: 90%;
+  border-radius: 0.25rem;
+}
+/* End Form Styling */
+
+/* Mobile Responsive Styling */
+@media screen and (max-width: 1000px) {
+  .card img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card img {
+    width: 100px;
+  }
+
+  .card {
+    width: 95%;
+    margin-bottom: 50px;
+  }
+}
+/* End Mobile Responsive Styling */
+
