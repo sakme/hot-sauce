@@ -116,7 +116,7 @@ function Detail() {
     });
   };
   
-  const handleRating = (rate: number) => {
+  const handleRating = (rate) => {
     setRating(rate)
   }
   
